@@ -1,0 +1,60 @@
+canvas {
+  border: 2px solid black;
+  margin: 5px;
+  touch-action:none;
+}
+
+body  {
+  padding:0px;
+  position:absolute;
+  touch-action:none;
+  height:100%;
+}
+
+#bottomToolbar {
+  position:absolute;
+  display:flex;
+  justify-content:space-evenly;
+  width:100%;
+  bottom:2.5%;
+  height:5%;
+  touch-action:none;
+}
+
+#penColor {
+  width:40%;
+  height:100%;
+  touch-action:none;
+}
+
+#clearButton {
+  font-size: 1.5vw;
+}
+
+#brushSize {
+  font-size: 3vw;
+  margin-top:0px;
+}
+
+.bottomButton {
+  font-size:2.5vw;
+  height:100%;
+  width:5%;  
+}
+
+@media only screen and (max-width: 600px){
+  
+  #penColor {
+    width: 20%;
+  }
+  
+  .bottomButton {
+    font-size: 4vw;
+    width: 20%;
+  }
+  
+  #brushSize {
+    font-size: 4vw;
+  }
+  
+}
