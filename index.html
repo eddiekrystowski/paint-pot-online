@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>Paint Pot Online</title>
+
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://icons.iconarchive.com/icons/google/noto-emoji-objects/512/62911-paintbrush-icon.png">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js" defer></script>
+    
+  </head>
+  <body>
+    <div id="bottomToolbar">
+      <input type="color" id="penColor">
+      <button type="button" id="clearButton" class="bottomButton">Clear</button>
+      <button type="button" id="plusButton" class="bottomButton">+</button>
+      <p id="brushSize"></p>
+      <button type="button" id="minusButton" class="bottomButton">-</button>
+    </div>
+  </body>
+</html>
